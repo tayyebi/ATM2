@@ -1,6 +1,6 @@
 ﻿namespace ATM2
 {
-    partial class Form1
+    partial class Dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -96,6 +96,7 @@
             this.rexaPictureButton2.Size = new System.Drawing.Size(160, 109);
             this.rexaPictureButton2.TabIndex = 1;
             this.rexaPictureButton2.TabStop = false;
+            this.rexaPictureButton2.Click += new System.EventHandler(this.rexaPictureButton2_Click);
             // 
             // groupBox_Menu
             // 
@@ -119,7 +120,7 @@
             this.groupBox_Status.TabStop = false;
             this.groupBox_Status.Text = "وضعیت";
             // 
-            // Form1
+            // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,7 +129,7 @@
             this.Controls.Add(this.groupBox_Menu);
             this.Font = new System.Drawing.Font("Arial", 12F);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "Dashboard";
             this.Padding = new System.Windows.Forms.Padding(10);
             this.Text = "داشبورد";
             this.Load += new System.EventHandler(this.Form1_Load);

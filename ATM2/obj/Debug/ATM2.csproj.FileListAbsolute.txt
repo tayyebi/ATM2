@@ -15,7 +15,6 @@ C:\Projects\ATM2\ATM2\ATM2\bin\Debug\ATM2.exe.config
 C:\Projects\ATM2\ATM2\ATM2\bin\Debug\ATM2.exe
 C:\Projects\ATM2\ATM2\ATM2\bin\Debug\ATM2.pdb
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\MarathonSkills2015.Components.RexaLabel.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Form1.resources
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.Adam.resources
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.Container.resources
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.RexaMessageBox.resources
@@ -29,3 +28,6 @@ C:\Projects\ATM2\ATM2\ATM2\bin\Debug\EntityFramework.SqlServer.dll
 C:\Projects\ATM2\ATM2\ATM2\bin\Debug\EntityFramework.xml
 C:\Projects\ATM2\ATM2\ATM2\bin\Debug\EntityFramework.SqlServer.xml
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Components.RexaDataGridView.resources
+C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Dashboard.resources
+C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.Crud.resources
+C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Cars.resources

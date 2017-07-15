@@ -15,9 +15,9 @@ using System.Windows.Forms;
 
 namespace ATM2
 {
-    public partial class Form1 : Adam
+    public partial class Dashboard : Adam
     {
-        public Form1()
+        public Dashboard()
         {
             InitializeComponent();
         }
@@ -34,16 +34,17 @@ namespace ATM2
             RexaDataGridView rDgV =
                 new RexaDataGridView();
             rDgV.Dock = DockStyle.Top;
-            //using (var db = new MainModel())
-            //{
             var db = new MainModel();
             rDgV.DataSource = new Transactions(ref db).LastActivity();
-            //}
             this.Invoke(new MethodInvoker(() =>
             {
                 groupBox_Status.Controls.Add(rDgV);
             }));
         }
 
+        private void rexaPictureButton2_Click(object sender, EventArgs e)
+        {
+            new Cars { MdiParent = this.MdiParent }.Show();
+        }
     }
 }

@@ -24,7 +24,7 @@ namespace ATM2.Masters
 
         private void داشبوردToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new Form1 { MdiParent = this }.Show();
+            new Dashboard { MdiParent = this }.Show();
         }
 
         private void خروجToolStripMenuItem_Click(object sender, EventArgs e)
