@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ATM2.Masters
 {
-    public partial class Container :Form
+    public partial class Container : Form
     {
         public Container()
         {
@@ -25,16 +25,6 @@ namespace ATM2.Masters
         private void داشبوردToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new Dashboard { MdiParent = this }.Show();
-        }
-
-        private void خروجToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void راهاندازیمجددبرنامهToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Restart();
         }
     }
 }

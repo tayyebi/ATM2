@@ -130,6 +130,7 @@
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\Zone.cs" />
+    <Compile Include="ModelViews\ATMs.cs" />
     <Compile Include="ModelViews\BaseModelView.cs" />
     <Compile Include="ModelViews\Cars.cs" />
     <Compile Include="ModelViews\Transactions.cs" />

@@ -5,7 +5,9 @@ using ATM2.ModelViews;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,26 +26,21 @@ namespace ATM2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Thread loadStats = new Thread(() => LoadStats());
-            loadStats.Start();
+            System.Threading.Thread.Sleep(500);
+            Thread atmSummary = new Thread(() => AtmSummary());
+            atmSummary.Start();
         }
 
-        public void LoadStats()
+        public void AtmSummary()
         {
-            RexaDataGridView rDgV =
-                new RexaDataGridView();
-            rDgV.Dock = DockStyle.Top;
             var db = new MainModel();
-            rDgV.DataSource = new Transactions(ref db).LastActivity();
+            RexaDataGridView rGV = new RexaDataGridView { Dock = DockStyle.Fill, DataSource = new ATMs(ref db).Abstarct() };
+
             this.Invoke(new MethodInvoker(() =>
             {
-                groupBox_Status.Controls.Add(rDgV);
+                Controls.Add(rGV);
             }));
         }
 
-        private void rexaPictureButton2_Click(object sender, EventArgs e)
-        {
-            new Cars { MdiParent = this.MdiParent }.Show();
-        }
     }
 }
