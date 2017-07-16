@@ -31,3 +31,4 @@ C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Components.RexaDataGridView.resources
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Dashboard.resources
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.Crud.resources
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Cars.resources
+C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.csprojResolveAssemblyReference.cache
