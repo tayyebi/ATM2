@@ -28,7 +28,6 @@ namespace ATM2
             loadStats.Start();
         }
 
-
         public void LoadStats()
         {
             RexaDataGridView rDgV =
