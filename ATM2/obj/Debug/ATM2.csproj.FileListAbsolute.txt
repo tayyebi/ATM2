@@ -11,24 +11,3 @@ c:\users\mohammadreza tayyebi\documents\visual studio 2015\Projects\ATM2\ATM2\ob
 c:\users\mohammadreza tayyebi\documents\visual studio 2015\Projects\ATM2\ATM2\obj\Debug\ATM2.Form1.resources
 c:\users\mohammadreza tayyebi\documents\visual studio 2015\Projects\ATM2\ATM2\obj\Debug\ATM2.Masters.Container.resources
 c:\users\mohammadreza tayyebi\documents\visual studio 2015\Projects\ATM2\ATM2\obj\Debug\ATM2.Masters.RexaMessageBox.resources
-C:\Projects\ATM2\ATM2\ATM2\bin\Debug\ATM2.exe.config
-C:\Projects\ATM2\ATM2\ATM2\bin\Debug\ATM2.exe
-C:\Projects\ATM2\ATM2\ATM2\bin\Debug\ATM2.pdb
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\MarathonSkills2015.Components.RexaLabel.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.Adam.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.Container.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.RexaMessageBox.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Properties.Resources.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.csproj.GenerateResource.Cache
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.exe
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.pdb
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Components.RexaPictureButton.resources
-C:\Projects\ATM2\ATM2\ATM2\bin\Debug\EntityFramework.dll
-C:\Projects\ATM2\ATM2\ATM2\bin\Debug\EntityFramework.SqlServer.dll
-C:\Projects\ATM2\ATM2\ATM2\bin\Debug\EntityFramework.xml
-C:\Projects\ATM2\ATM2\ATM2\bin\Debug\EntityFramework.SqlServer.xml
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Components.RexaDataGridView.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Dashboard.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Masters.Crud.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Cars.resources
-C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.csprojResolveAssemblyReference.cache

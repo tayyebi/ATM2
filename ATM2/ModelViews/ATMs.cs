@@ -16,7 +16,8 @@ namespace ATM2.ModelViews
 
         public IEnumerable<object> Abstarct()
         {
-            return
+
+            var query =
 
                 //(from b in
 
@@ -37,8 +38,8 @@ namespace ATM2.ModelViews
                 join the_package in databaseContext.Packages
                 on the_transaction.Id equals the_package.TransactionId
 
-                join the_day in databaseContext.CalendarDimensions
-                on the_transaction.DateKey equals the_day.DateKey
+                //join the_day in databaseContext.CalendarDimensions
+                //on the_transaction.DateKey equals the_day.DateKey
 
                 select new
                 {
@@ -67,8 +68,12 @@ namespace ATM2.ModelViews
 
 
                 )
-                //.OrderByDescending(x=>x.Date)
+                //.OrderByDescending(x => x.Transaction)
+                .Take(10)
                 .ToList();
+
+            return query;
+
         }
 
     }

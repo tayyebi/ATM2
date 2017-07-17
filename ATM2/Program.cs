@@ -120,6 +120,56 @@ namespace ATM2
 
 
 
+            // Level 3
+
+
+            //List<int> transactionIds;
+            //List<int> carIds;
+
+            //using (var db = new Models.MainModel())
+            //{
+            //    transactionIds = db.Transactions.Where(x => x.CarId == 1 && x.AtmId == null).Select(x => x.Id).ToList();
+            //    carIds = db.Cars.Select(x => x.Id).ToList();
+            //}
+
+            //int transactionsCount = transactionIds.Count();
+            //int[] decart = new int[transactionsCount];
+
+
+            //int carsCount = carIds.Count;
+
+            //Random r = new Random();
+            //int ra = 0;
+
+            //for (int i = 0; i < transactionsCount; i++)
+            //{
+            //    ra = r.Next(0, carsCount - 1);
+            //    decart[i] = carIds[ra];
+
+            //}
+
+            //Parallel.For(0, transactionsCount - 1, j =>
+            //{
+
+            //    SqlConnection con = new SqlConnection();
+            //    con.ConnectionString = "data source=.\\SQLEXPRESS;initial catalog=ATM2;integrated security=True;MultipleActiveResultSets=True;";
+            //    SqlCommand com = new SqlCommand();
+            //    com.Connection = con;
+            //    con.Open();
+
+            //    int the_car = decart[j];
+            //    int the_transaction = transactionIds[j];
+
+            //    com.CommandText = $"UPDATE [Transaction] SET CarId={the_car} WHERE ID={the_transaction}";
+            //    com.ExecuteNonQuery();
+            //    con.Close();
+            //});
+
+
+
+
+
+
 
 
             Application.ThreadException += (sender, args) => RexaAppException(sender, args.Exception);
