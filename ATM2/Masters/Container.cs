@@ -22,9 +22,10 @@ namespace ATM2.Masters
 
         }
 
-        private void داشبوردToolStripMenuItem_Click(object sender, EventArgs e)
+        private void کارکردماهانهیمنطقهToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new Dashboard { MdiParent = this }.Show();
+
+            new Report1 { MdiParent = this }.Show();
         }
     }
 }

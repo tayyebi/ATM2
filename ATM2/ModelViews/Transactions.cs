@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ATM2.Models;
+using ATM2.Reports;
 
 namespace ATM2.ModelViews
 {
@@ -12,35 +13,45 @@ namespace ATM2.ModelViews
         public Transactions(ref MainModel DatabaseContext) : base(ref DatabaseContext)
         {
         }
-        public IEnumerable<object> LastActivity()
+        public IEnumerable<object> Abstract(int ZoneId, int Year, int Month)
         {
-            //return databaseContext.ATMs.Select(x => new
-            //{
-            //    x.LocationId,
-            //    x.Code
-            //})
-            //.ToList();
 
             return
-                (from transaction in databaseContext.Transactions
+                  (
 
-                 join the_atm in databaseContext.ATMs
-                 on transaction.AtmId equals the_atm.Code into leftATMs
-                 from atm in leftATMs.DefaultIfEmpty()
+                  from transaction in databaseContext.Transactions
+
+                  join pack in databaseContext.Packages
+                  on transaction.Id equals pack.TransactionId
+
+                  join calendar in databaseContext.CalendarDimensions
+                  on transaction.DateKey equals calendar.DateKey
+
+                  join atm in databaseContext.ATMs
+                  on transaction.AtmId equals atm.Code
+
+                  join location in databaseContext.Locations
+                  on atm.LocationId equals location.Id
+
+                  join zone in databaseContext.Zones
+                  on location.ZoneId equals zone.Id
 
 
-                 join the_car in databaseContext.Cars
-                 on transaction.CarId equals the_car.Id into leftCar
-                 from car in leftCar.DefaultIfEmpty()
+                  where zone.Id == ZoneId
+                  && calendar.Month == Month
+                  && calendar.Year == Year
 
-                 join calendar in databaseContext.CalendarDimensions
-                 on transaction.DateKey equals calendar.DateKey
 
-                 select new { transaction.DateKey, Date = calendar.PersianDate, Id = transaction.Id, Car = car.Model, ATM = atm.Code }
 
-                )
-                .Take(10)
-                .ToList();
+                  select new { calendar.DateKey, Zone = zone.Name, Location = location.Name, ATM = atm.Code, TransactionAmout = pack.Count * pack.Value }
+
+
+                  )
+                  .OrderByDescending(x => x.DateKey)
+                  .Select(x => new Report1Layout { Amount = x.TransactionAmout, Name = x.ATM })
+                  .ToList();
+
+
         }
     }
 }

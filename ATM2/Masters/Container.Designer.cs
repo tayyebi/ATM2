@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.داشبوردToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.گزارشهاToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.کارکردماهانهیمنطقهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.داشبوردToolStripMenuItem});
+            this.گزارشهاToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -44,12 +45,20 @@
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // داشبوردToolStripMenuItem
+            // گزارشهاToolStripMenuItem
             // 
-            this.داشبوردToolStripMenuItem.Name = "داشبوردToolStripMenuItem";
-            this.داشبوردToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.داشبوردToolStripMenuItem.Text = "داشبورد";
-            this.داشبوردToolStripMenuItem.Click += new System.EventHandler(this.داشبوردToolStripMenuItem_Click);
+            this.گزارشهاToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.کارکردماهانهیمنطقهToolStripMenuItem});
+            this.گزارشهاToolStripMenuItem.Name = "گزارشهاToolStripMenuItem";
+            this.گزارشهاToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.گزارشهاToolStripMenuItem.Text = "گزارش ها";
+            // 
+            // کارکردماهانهیمنطقهToolStripMenuItem
+            // 
+            this.کارکردماهانهیمنطقهToolStripMenuItem.Name = "کارکردماهانهیمنطقهToolStripMenuItem";
+            this.کارکردماهانهیمنطقهToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.کارکردماهانهیمنطقهToolStripMenuItem.Text = "کارکرد ماهانه ی منطقه";
+            this.کارکردماهانهیمنطقهToolStripMenuItem.Click += new System.EventHandler(this.کارکردماهانهیمنطقهToolStripMenuItem_Click);
             // 
             // Container
             // 
@@ -73,6 +82,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem داشبوردToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem گزارشهاToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem کارکردماهانهیمنطقهToolStripMenuItem;
     }
 }
