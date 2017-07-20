@@ -27,5 +27,10 @@ namespace ATM2.Masters
 
             new Report1 { MdiParent = this }.Show();
         }
+
+        private void داشبوردToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Dashboard().ShowDialog();
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace ATM2.ModelViews
         public IEnumerable<object> DropDown()
         {
             var query = (from zone in databaseContext.Zones
-                         select  zone
+                         select zone
              );
             return query.ToList();
         }

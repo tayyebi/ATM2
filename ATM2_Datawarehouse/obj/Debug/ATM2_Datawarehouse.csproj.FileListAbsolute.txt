@@ -1,0 +1,9 @@
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\bin\Debug\ATM2_Datawarehouse.exe.config
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\bin\Debug\ATM2_Datawarehouse.exe
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\bin\Debug\ATM2_Datawarehouse.pdb
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\obj\Debug\ATM2_Datawarehouse.csprojResolveAssemblyReference.cache
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\obj\Debug\ATM2_Datawarehouse.Form1.resources
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\obj\Debug\ATM2_Datawarehouse.Properties.Resources.resources
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\obj\Debug\ATM2_Datawarehouse.csproj.GenerateResource.Cache
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\obj\Debug\ATM2_Datawarehouse.exe
+C:\Projects\ATM2\ATM2\ATM2_Datawarehouse\obj\Debug\ATM2_Datawarehouse.pdb

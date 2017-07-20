@@ -124,3 +124,4 @@ C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Report1.resources
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.csproj.GenerateResource.Cache
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.exe
 C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.pdb
+C:\Projects\ATM2\ATM2\ATM2\obj\Debug\ATM2.Dashboard.resources
